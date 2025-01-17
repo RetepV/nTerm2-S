@@ -2146,8 +2146,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 6.35)
-					(end -2.54 -5.08)
+					(start -2.54 6.35)
+					(end 2.54 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2233,50 +2233,14 @@
 				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "~"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SN"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2287,14 +2251,32 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "~"
+					(name "T"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2305,14 +2287,32 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "~"
+					(name "TN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "TN"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3209,7 +3209,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
+		(symbol "Device:LED pins reversed"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -3277,7 +3277,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED pins reversed_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -3339,11 +3339,11 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED pins reversed_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3359,9 +3359,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8648,6 +8648,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 190.5) (xy 337.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1e928f-ae84-42d5-8da3-88addb556ba1")
+	)
+	(wire
+		(pts
 			(xy 132.08 124.46) (xy 132.08 120.65)
 		)
 		(stroke
@@ -9998,6 +10008,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 154.94) (xy 337.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa68b88-9496-4e15-b2a9-b8247d29c65d")
+	)
+	(wire
+		(pts
 			(xy 238.76 218.44) (xy 238.76 245.11)
 		)
 		(stroke
@@ -10505,6 +10525,16 @@
 			(type default)
 		)
 		(uuid "b0758f09-2f00-4e5f-87d0-5c597e66a451")
+	)
+	(wire
+		(pts
+			(xy 337.82 226.06) (xy 337.82 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07ddab9-ba7d-4614-9c77-05775e736fba")
 	)
 	(wire
 		(pts
@@ -11128,6 +11158,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 154.94) (xy 337.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51ddf98-7483-4daf-bdbc-44a082f83202")
+	)
+	(wire
+		(pts
 			(xy 156.21 104.14) (xy 163.83 104.14)
 		)
 		(stroke
@@ -11398,6 +11438,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 226.06) (xy 337.82 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc2649b-d601-4a80-a559-5a7fa7a7bffe")
+	)
+	(wire
+		(pts
 			(xy 358.14 113.03) (xy 359.41 113.03)
 		)
 		(stroke
@@ -11615,6 +11665,16 @@
 			(type default)
 		)
 		(uuid "fda88860-20d9-469f-a7a7-b45209fc52e1")
+	)
+	(wire
+		(pts
+			(xy 337.82 190.5) (xy 337.82 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff21d980-6b89-4ed4-9c63-cc5ba31cd198")
 	)
 	(wire
 		(pts
@@ -13848,6 +13908,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Dual_AKAK")
+		(at 66.04 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14c7a6a3-2fa6-4819-8c28-f2bfc67ac7e1")
+		(property "Reference" "D11"
+			(at 65.913 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_AKAK"
+			(at 65.913 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:DIALIGHT_LED_3MM_DOUBLE"
+			(at 66.802 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.802 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 2 and 4"
+			(at 66.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "393d5d73-8eba-4d0d-8bdb-9a72b46e571b")
+		)
+		(pin "1"
+			(uuid "253829d4-e08d-471e-a64b-0532222505b3")
+		)
+		(pin "3"
+			(uuid "d895d419-f2d4-4268-b05c-a503b01b3688")
+		)
+		(pin "4"
+			(uuid "13a71b14-c149-4a5e-8d7f-01204640eb86")
+		)
+		(instances
+			(project ""
+				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 237.49 19.05 0)
 		(unit 1)
@@ -13908,6 +14042,80 @@
 			(project ""
 				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AKAK")
+		(at 66.04 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18f59b14-5339-4f7a-8717-5e07dbe70503")
+		(property "Reference" "D12"
+			(at 65.913 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_AKAK"
+			(at 65.913 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:DIALIGHT_LED_3MM_DOUBLE"
+			(at 66.802 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.802 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 2 and 4"
+			(at 66.04 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ddc1eab-772c-482e-afda-5549a3285cc8")
+		)
+		(pin "1"
+			(uuid "38875d5e-56c8-4f24-9d0b-566e23c6b294")
+		)
+		(pin "3"
+			(uuid "11c88df4-6df4-419c-8993-c0616f749a61")
+		)
+		(pin "4"
+			(uuid "2a31abca-0071-4925-b5e1-b61fdc8f41bf")
+		)
+		(instances
+			(project "nTerm2-s"
+				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -14999,6 +15207,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 337.82 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3425ecdd-ef71-43a0-9773-18dd68f02edd")
+		(property "Reference" "#PWR028"
+			(at 337.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da32d95c-8d45-4cf6-89ea-df742d0e0cc8")
+		)
+		(instances
+			(project "nTerm2-s"
+				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 59.69 215.9 0)
 		(unit 1)
@@ -15993,19 +16267,19 @@
 				(hide yes)
 			)
 		)
-		(pin "TN"
+		(pin "1"
 			(uuid "12e8ddc5-f00a-41e6-997c-f1bff83efdac")
 		)
-		(pin "G"
+		(pin "2"
 			(uuid "f674b26f-02d6-4d92-99da-7814e743b9b2")
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "4924568e-b96a-404b-8c04-ec5771bc05d3")
 		)
-		(pin "S"
+		(pin "4"
 			(uuid "0f9aadbb-7d96-45b2-9e04-c941261c1384")
 		)
-		(pin "SN"
+		(pin "5"
 			(uuid "0585e360-3903-4245-b3cd-4dd4d8f59fcf")
 		)
 		(instances
@@ -16043,7 +16317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDBox-mini:USB_Micro-B_Unknown_5s_SMT"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118194-0001LF_Horizontal"
 			(at 30.48 110.49 0)
 			(effects
 				(font
@@ -16052,7 +16326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/3572/0900766b815caef2.pdf"
 			(at 30.48 110.49 0)
 			(effects
 				(font
@@ -17348,6 +17622,72 @@
 			(project "nTerm2-s"
 				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 337.82 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c610a2d-722f-4d6b-9f2b-6a08e9bb4466")
+		(property "Reference" "#PWR027"
+			(at 337.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f27656f8-6fae-4a07-999b-a7ef5642664a")
+		)
+		(instances
+			(project ""
+				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18888,148 +19228,6 @@
 			(project "nTerm2-s"
 				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Dual_AKAK")
-		(at 66.04 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a84ee300-82b9-46f7-ba07-69a63216d035")
-		(property "Reference" "D11"
-			(at 95.758 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED Dual Low Power 2mA"
-			(at 95.758 183.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:DIALIGHT_LED_3MM_DOUBLE"
-			(at 66.802 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.802 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual LED, cathodes on pins 2 and 4"
-			(at 66.04 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c50b06b6-5bd9-4db5-b146-d8cb324ff868")
-		)
-		(pin "1"
-			(uuid "283e51ba-fb98-489e-8fa2-753aa8d165e3")
-		)
-		(pin "3"
-			(uuid "7a14450c-2958-4270-ad16-1628fe4f239f")
-		)
-		(pin "4"
-			(uuid "33ab1bc9-c3e6-4018-bcae-3a8f480d6caf")
-		)
-		(instances
-			(project ""
-				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 213.36 167.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a99e1e3a-a5b6-4c48-86d7-120fd2c96dd4")
-		(property "Reference" "D4"
-			(at 202.946 172.212 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED Low Power 2mA"
-			(at 202.946 174.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:DIALIGHT_LED_3MM_SINGLE"
-			(at 213.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 213.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25282597-83ef-419e-aaed-12482504625e")
-		)
-		(pin "2"
-			(uuid "61c355cd-b699-4021-b3e1-c4ada93fa880")
-		)
-		(instances
-			(project ""
-				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -20890,6 +21088,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED pins reversed")
+		(at 213.36 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6712b18-4b15-415a-ab22-905ecf5d62a3")
+		(property "Reference" "D4"
+			(at 217.17 167.9574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 170.4974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:DIALIGHT_LED_3MM_SINGLE"
+			(at 213.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2587d6f8-2910-46ef-906e-5a8fcefa67d0")
+		)
+		(pin "2"
+			(uuid "76084dda-777b-4e8e-86c4-a874113ae1b3")
+		)
+		(instances
+			(project ""
+				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Audio:LM386")
 		(at 349.25 101.6 0)
 		(unit 1)
@@ -21040,79 +21308,6 @@
 			(project ""
 				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Dual_AKAK")
-		(at 66.04 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ceea16d5-43c1-453e-946f-95c53c339d44")
-		(property "Reference" "D12"
-			(at 94.742 192.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED Dual Low Power 2mA"
-			(at 94.742 194.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:DIALIGHT_LED_3MM_DOUBLE"
-			(at 66.802 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.802 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual LED, cathodes on pins 2 and 4"
-			(at 66.04 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "19b6fceb-f82b-4baf-ac03-c19a66e2ed33")
-		)
-		(pin "1"
-			(uuid "a356c331-7b34-4ede-a591-4dd8c446f893")
-		)
-		(pin "3"
-			(uuid "ba1241c2-f380-42e6-8fc5-f8bd20e4e4a8")
-		)
-		(pin "4"
-			(uuid "30fb37dc-77ad-4836-8ac0-2ba7db764399")
-		)
-		(instances
-			(project "nTerm2-s"
-				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -21616,6 +21811,72 @@
 			(project ""
 				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 337.82 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5de6262-44be-414a-bd90-fcdcd8c30d27")
+		(property "Reference" "#PWR033"
+			(at 337.82 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23502073-4bfe-4057-99fd-97ef500986a1")
+		)
+		(instances
+			(project "nTerm2-s"
+				(path "/44921612-d8e1-466c-be95-28be93b4c71b"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
