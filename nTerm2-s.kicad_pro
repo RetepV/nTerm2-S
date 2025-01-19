@@ -51,30 +51,60 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
-        "drill_out_of_range|73995000|45272500|5dd21f39-6dc0-4823-9eff-fb714bed5e7b|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|73995000|46797500|ad1c0c64-8128-4b8e-b993-f881046e88d2|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|74757500|44510000|5ed3b651-7058-41f4-92a8-16a72afe9300|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|74757500|46035000|e47a7efd-3549-4aaa-9b24-a2d1ba2ba675|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|74757500|47560000|51bc5115-0fd9-494c-aca0-36d005605dc6|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|75520000|45272500|649250ae-4879-462e-9464-f5afdf0234eb|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|75520000|46797500|4d5f44a3-628d-4457-a726-6978495b5708|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|76282500|44510000|7d15ba69-92d9-4b83-b172-aa3383cc24d6|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|76282500|46035000|dee46aeb-fb67-4a28-a2cf-815ad0fbd035|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|76282500|47560000|2aacf98d-3401-43a0-a71c-0d76098b3857|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|77045000|45272500|d8cebac9-b01a-4c24-861e-249bb2c7e6e9|00000000-0000-0000-0000-000000000000",
-        "drill_out_of_range|77045000|46797500|1a6e2f8a-809b-4793-b386-56786e482516|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|126981250|82592500|35417a6b-76d5-4e1a-80b3-8f03397eb3e9|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|133331250|82592500|504ec837-89d8-4f74-9d4f-6579f593a555|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|114070000|30480000|2e650d25-81a3-4cf3-af83-8d3c2fea65eb|fcdaf66d-d183-477b-a71b-7278e4dd37aa",
-        "silk_edge_clearance|125530000|86360000|a208e9e4-9079-4f84-8f3c-af175585f77f|d73e2288-c1e1-4d29-9982-f9307b154b5b",
-        "silk_edge_clearance|128330000|86360000|a208e9e4-9079-4f84-8f3c-af175585f77f|c1194b7e-9d08-46b9-81d6-0a75f1b07aff",
-        "silk_edge_clearance|131880000|86360000|a208e9e4-9079-4f84-8f3c-af175585f77f|e6ac3688-e572-4606-a0c1-3f2978c6e399",
-        "silk_edge_clearance|134680000|86360000|a208e9e4-9079-4f84-8f3c-af175585f77f|fff89b7e-31eb-4198-97d9-088961059cbc",
-        "silk_edge_clearance|145040000|30480000|2e650d25-81a3-4cf3-af83-8d3c2fea65eb|86ec4313-4ce2-492c-9b26-8dbee30ddcb5",
-        "silk_edge_clearance|39170000|86360000|a208e9e4-9079-4f84-8f3c-af175585f77f|23511bcd-8531-4b47-a7f1-1f1b4a67e81d",
-        "silk_edge_clearance|41970000|86360000|a208e9e4-9079-4f84-8f3c-af175585f77f|2535c0e0-00e0-496f-8c6d-0d60904b7a4e"
+        "annular_width|41983000|36945500|150e08e6-494f-4e09-a6e6-2bb11db6e246|00000000-0000-0000-0000-000000000000",
+        "annular_width|41983000|38295500|e447b1c2-3efd-42ed-88d2-895085baf033|00000000-0000-0000-0000-000000000000",
+        "annular_width|42833000|36945500|de80c04d-c53a-46df-8b1e-3bf37c5d344d|00000000-0000-0000-0000-000000000000",
+        "annular_width|42833000|38295500|1e59d187-e4f7-4420-87f2-9749a5877e9b|00000000-0000-0000-0000-000000000000",
+        "annular_width|43683000|36945500|9c9ce5d6-593c-4915-8a86-d905b8beb7ef|00000000-0000-0000-0000-000000000000",
+        "annular_width|43683000|38295500|3e04adf0-2ac9-4ae2-9664-cf9830cabfa6|00000000-0000-0000-0000-000000000000",
+        "annular_width|44533000|36945500|76ffb9d1-d3f8-4416-9dd5-f4c7cf70ce5f|00000000-0000-0000-0000-000000000000",
+        "annular_width|44533000|38295500|fb22b8d7-3677-4c98-bc60-63d010cb6274|00000000-0000-0000-0000-000000000000",
+        "annular_width|45383000|36945500|f5a6de43-4293-40b1-a919-b8ba628f6312|00000000-0000-0000-0000-000000000000",
+        "annular_width|45383000|38295500|d5cccbfc-df31-44f8-a850-5d8b9e5044ef|00000000-0000-0000-0000-000000000000",
+        "annular_width|46233000|36945500|4db04f72-9dcf-4c5e-8f81-0123c1ea0ad4|00000000-0000-0000-0000-000000000000",
+        "annular_width|46233000|38295500|74ecebd8-b5fd-40e0-aa5b-981f92141d0e|00000000-0000-0000-0000-000000000000",
+        "annular_width|47083000|36945500|0daeb7fc-3759-4192-8632-33a9d5a065ed|00000000-0000-0000-0000-000000000000",
+        "annular_width|47083000|38295500|f06e043f-12a8-4828-9dd0-be8c711307bc|00000000-0000-0000-0000-000000000000",
+        "annular_width|47933000|36945500|fa4c61bd-1c4b-4462-90b4-4e7027835e97|00000000-0000-0000-0000-000000000000",
+        "annular_width|47933000|38295500|b374ddaf-b5df-45a1-b1bf-b79298c98f2a|00000000-0000-0000-0000-000000000000",
+        "annular_width|76282500|47473000|ee9b797f-b0a4-4fcf-8a8d-31c3247109e3|00000000-0000-0000-0000-000000000000",
+        "annular_width|77045000|46710500|0defa7d3-5648-433b-97c0-783cf123cd55|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|41983000|36945500|150e08e6-494f-4e09-a6e6-2bb11db6e246|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|41983000|38295500|e447b1c2-3efd-42ed-88d2-895085baf033|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|42833000|36945500|de80c04d-c53a-46df-8b1e-3bf37c5d344d|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|42833000|38295500|1e59d187-e4f7-4420-87f2-9749a5877e9b|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|43683000|36945500|9c9ce5d6-593c-4915-8a86-d905b8beb7ef|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|43683000|38295500|3e04adf0-2ac9-4ae2-9664-cf9830cabfa6|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|44533000|36945500|76ffb9d1-d3f8-4416-9dd5-f4c7cf70ce5f|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|44533000|38295500|fb22b8d7-3677-4c98-bc60-63d010cb6274|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|45383000|36945500|f5a6de43-4293-40b1-a919-b8ba628f6312|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|45383000|38295500|d5cccbfc-df31-44f8-a850-5d8b9e5044ef|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|46233000|36945500|4db04f72-9dcf-4c5e-8f81-0123c1ea0ad4|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|46233000|38295500|74ecebd8-b5fd-40e0-aa5b-981f92141d0e|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|47083000|36945500|0daeb7fc-3759-4192-8632-33a9d5a065ed|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|47083000|38295500|f06e043f-12a8-4828-9dd0-be8c711307bc|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|47933000|36945500|fa4c61bd-1c4b-4462-90b4-4e7027835e97|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|47933000|38295500|b374ddaf-b5df-45a1-b1bf-b79298c98f2a|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|73995000|45185500|0fa41e18-2c83-43c6-acc1-93be78fc1580|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|73995000|46710500|fe8bc398-1dc9-4643-9c5f-41218a155219|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|74757500|44423000|96ad5833-2409-4801-9fe3-b16ac0e7a8ce|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|74757500|45948000|b10f4bcd-84a7-4c3f-949f-08212671ca2b|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|74757500|47473000|e2ce53ee-5761-4a6e-8c13-3bb6dc837542|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|75520000|45185500|9f67fd99-1e06-462c-b8c2-de6eb1994414|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|75520000|46710500|d7acf05d-71d7-47ec-bdd0-87d1810200f3|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|76282500|44423000|910e86f0-b83c-4a32-bb5d-5f083f9664d1|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|76282500|45948000|f7bcb0e9-2039-46de-ba56-a222e0c95bed|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|76282500|47473000|ee9b797f-b0a4-4fcf-8a8d-31c3247109e3|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|77045000|45185500|811ff447-a9ef-402a-b642-3b8913a978e5|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|77045000|46710500|0defa7d3-5648-433b-97c0-783cf123cd55|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -93,7 +123,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -106,14 +136,14 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -194,7 +224,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -221,7 +253,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {

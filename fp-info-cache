@@ -1,4 +1,4 @@
-24002657928668186
+24004395233750884
 8bits
 Amstrad_CPC_Disc_Conector_2x25_P2.54mm_Double
 Through hole straight pin header, 2x25, 2.54mm pitch, double rows
@@ -49874,6 +49874,13 @@ USB C Type-C USB3 receptacle SMD
 0
 28
 25
+Connector_USB
+USB_C_Receptacle_Molex_213716-0001
+USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
+USB Type-C Receptacle Through-hole Right angle
+0
+20
+17
 Connector_USB
 USB_C_Receptacle_Palconn_UTC16-G
 http://www.palpilot.com/wp-content/uploads/2017/05/UTC027-GKN-OR-Rev-A.pdf
