@@ -1,5 +1,5 @@
 # nTerm2-S
-My rendition of the uTerm2-S. In SMD, but hopefully easily solderable for everyone (maybe not the CP2102, but let's see).
+My rendition of the uTerm2-S. It is in SMD, but hopefully easily hand-solderable for everyone (with maybe the exception of the CP2102).
 
 It has a slightly more usable form the uTerm2-S. As extra, it can switch between normal and cross (null-modem) in software so that you wil never have to search for that null-modem cable ever again.
 
