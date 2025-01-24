@@ -1,5 +1,5 @@
 # nTerm2-S
-My rendition of the uTerm2-S. It is in SMD, but hopefully easily hand-solderable for everyone (with maybe the exception of the CP2102).
+My rendition of the uTerm2-S by Just4Fun (https://hackaday.io/project/181583-uterm2-s-a-multi-emulation-color-rs232-terminal). This one is in SMD, and I hopefully made it easily hand-solderable for everyone (with maybe the exception of the CP2102).
 
 It has a slightly more usable form the uTerm2-S, I think. Smaller and a little better usable when sitting permanently on a desk. And as an extra, it can switch between normal and cross (null-modem) in software so that you wil never have to search for that null-modem cable ever again, and it can switch between RTS/CTS and DTR/DSR.
 
