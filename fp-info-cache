@@ -1,4 +1,4 @@
-24004395233750884
+24006205058034285
 8bits
 Amstrad_CPC_Disc_Conector_2x25_P2.54mm_Double
 Through hole straight pin header, 2x25, 2.54mm pitch, double rows
@@ -49559,6 +49559,13 @@ four-pin M8
 0
 6
 5
+Connector_USB
+MOLEX_2137160001
+
+
+0
+20
+17
 Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle, http://www.molex.com/pdm_docs/sd/483930003_sd.pdf
