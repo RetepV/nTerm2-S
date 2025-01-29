@@ -15384,7 +15384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "ESD9D5.0ST5G:TVS_ESD9D5.0ST5G"
 			(at 52.07 129.54 0)
 			(effects
 				(font
@@ -23635,7 +23635,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "ESD9D5.0ST5G:TVS_ESD9D5.0ST5G"
 			(at 57.15 129.54 0)
 			(effects
 				(font

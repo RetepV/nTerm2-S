@@ -1,4 +1,4 @@
-24006205058034285
+24007955015130579
 8bits
 Amstrad_CPC_Disc_Conector_2x25_P2.54mm_Double
 Through hole straight pin header, 2x25, 2.54mm pitch, double rows
@@ -2546,7 +2546,7 @@ tactile switch SPST right angle, PTS645VL58-2 LFS
 tactile switch SPST angled PTS645VL58-2 LFS C&K Button
 0
 4
-2
+3
 Button_Switch_THT
 SW_Tactile_SPST_Angled_PTS645Vx83-2LFS
 tactile switch SPST right angle, PTS645VL83-2 LFS
@@ -57161,6 +57161,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESD9D5.0ST5G
+TVS_ESD9D5.0ST5G
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
