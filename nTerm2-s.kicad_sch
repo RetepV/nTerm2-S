@@ -15987,7 +15987,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u/25v"
+		(property "Value" "0.1u"
 			(at 125.476 75.184 90)
 			(effects
 				(font
@@ -16862,7 +16862,7 @@
 				)
 			)
 		)
-		(property "Value" "10u/25v"
+		(property "Value" "10u"
 			(at 114.3 84.836 90)
 			(effects
 				(font
@@ -16870,7 +16870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
 			(at 113.9952 78.74 0)
 			(effects
 				(font
@@ -18877,7 +18877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder"
 			(at 63.1952 133.35 0)
 			(effects
 				(font
@@ -19211,7 +19211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder"
 			(at 271.4752 31.75 0)
 			(effects
 				(font
@@ -20888,7 +20888,7 @@
 		(dnp no)
 		(uuid "b3ac79c3-60d7-4047-8522-5260cf85fe5a")
 		(property "Reference" "C23"
-			(at 220.218 166.116 90)
+			(at 224.028 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20896,14 +20896,14 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 222.25 168.656 90)
+			(at 224.282 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder"
 			(at 221.9452 162.56 0)
 			(effects
 				(font
