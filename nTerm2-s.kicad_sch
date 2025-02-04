@@ -6,11 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "nTerm2-s")
-		(date "2025-01-15")
+		(date "2025-01-30")
 		(rev "0.03")
-		(company "Sporos Tech")
-		(comment 1 "© 2025 Sporos Tech ₍^•_•^₎ﾉ")
-		(comment 2 "Peter de Vroomen")
+		(company "Sporos Tech ₍^•_•^₎ﾉ")
+		(comment 1 "Peter de Vroomen")
+		(comment 2 "© 2025 Sporos Tech ₍^•_•^₎ﾉ")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Audio:LM386"
@@ -15376,14 +15376,14 @@
 			)
 		)
 		(property "Value" "P4SMAJ5.0CA"
-			(at 54.61 129.54 0)
+			(at 51.816 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 52.07 129.54 0)
 			(effects
 				(font
@@ -16061,7 +16061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 360.68 143.8148 0)
 			(effects
 				(font
@@ -16463,7 +16463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 360.68 179.3748 0)
 			(effects
 				(font
@@ -19787,7 +19787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG"
+		(property "Footprint" "Relay_SMD:Relay_DPDT_AXICOM_IMSeries_Gullwing"
 			(at 195.58 252.73 0)
 			(effects
 				(font
@@ -20284,7 +20284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 360.68 214.9348 0)
 			(effects
 				(font
@@ -23070,7 +23070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG"
+		(property "Footprint" "Relay_SMD:Relay_DPDT_AXICOM_IMSeries_Gullwing"
 			(at 127 255.27 0)
 			(effects
 				(font
@@ -23626,14 +23626,14 @@
 			)
 		)
 		(property "Value" "P4SMAJ5.0CA"
-			(at 59.69 129.54 0)
+			(at 57.912 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 57.15 129.54 0)
 			(effects
 				(font
@@ -23701,7 +23701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG"
+		(property "Footprint" "Relay_SMD:Relay_DPDT_AXICOM_IMSeries_Gullwing"
 			(at 127 220.98 0)
 			(effects
 				(font

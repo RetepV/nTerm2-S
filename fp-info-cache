@@ -1,4 +1,4 @@
-24007955015130579
+24009705903180882
 8bits
 Amstrad_CPC_Disc_Conector_2x25_P2.54mm_Double
 Through hole straight pin header, 2x25, 2.54mm pitch, double rows
@@ -87258,6 +87258,13 @@ Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
 TE IM-Series Relay DPDT Form C
+0
+8
+8
+Relay_SMD
+Relay_DPDT_AXICOM_IMSeries_Gullwing
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
+AXICOM IM-Series Relay J Gull Wing
 0
 8
 8
