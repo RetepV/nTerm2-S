@@ -1,4 +1,4 @@
-24009705903180882
+24011445876931047
 8bits
 Amstrad_CPC_Disc_Conector_2x25_P2.54mm_Double
 Through hole straight pin header, 2x25, 2.54mm pitch, double rows
@@ -73169,6 +73169,13 @@ QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#
 QFN NoLead
 0
 55
+29
+Package_DFN_QFN
+QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_handsolder
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+38
 29
 Package_DFN_QFN
 QFN-28-1EP_5x5mm_P0.5mm_EP3.75x3.75mm
