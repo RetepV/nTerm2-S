@@ -49,6 +49,7 @@ THIS IS A WORK IN PROGESS! I.E. UNLESS STATED AS WORKING, ASSUME THAT IT DOES NO
 <sub>v0.1 vs v0.5:</sub>
 
 ![IMG_3242](https://github.com/user-attachments/assets/5470fe8d-8720-4005-9847-031886a9e115)
+![IMG_3244](https://github.com/user-attachments/assets/adfa44a1-9289-4563-ab19-3d2f427e8b60)
 
 <sub>Testing v0.5</sub>
 
