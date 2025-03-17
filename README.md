@@ -32,7 +32,6 @@ THIS IS A WORK IN PROGESS! I.E. UNLESS STATED AS WORKING, ASSUME THAT IT DOES NO
 5. I accidentally used the J-leg footprint for the IM41's instead of the Gullwing footprint.
 6. Many of the large capacitor's footprints were simply wrong and I had to solder one vertically.
 7. I used tantalum caps in the relay circuits, but there's no reason to not use the much cheaper normal electrolytic caps.
-8. I think I should add one or more extra holes for screws around the VGA connector because I don't believe for a moment that this is stable. 
 </sub>
 
 <sub>After a fixing all of the above, and refactoring a few things on the board, version v0.6 was arrived at. And once again I had boards made by JCPCB. 17 euro for 5 boards. Still cheap, but no discount for me this time. The new boards arrived in record time, and I went to populate one.<s/ub>
