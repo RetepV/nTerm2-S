@@ -17,15 +17,15 @@ THIS IS A WORK IN PROGESS! I.E. UNLESS STATED AS WORKING, ASSUME THAT IT DOES NO
 
 <sub>Created the gerbers for v0.1 and sent out to JLPCB. Jeez, it's cheap. 11 euro for 5 boards. Still had a bunch of warnings from the pins/vias of the USB-C connector and ESP32 footprints that I just could not resolve. Decided to take my chances, and JLCPCB accepted the gerbers and has actually already finished and posted the boards. So I expect the boards to be here in a few days. In the mean time, I've been doing some basic work and redesign for a version 2 of the nTerm2-S, with an SD card slot and psram, to make it more versatile (e.g. PC emulation). However, let's get this first version to work first, the objective is to have a terminal with software switchable null-modem.</sub>
 
-<sub>After my v0.1 boards arrived I built one up. I did it in stages, starting with the CP2102 and then the power (I use the CP2102 in bus-powered mode). After much cursing, I got the CP2012 straight on the pads and it looked good under the microscope. I then added the power supply components and the USB-C port. No ESD protection yet. Doublechecked everything 10 times under the microscope, got out an old cheap USB hub (better to blow up the hub than my Macbook's port) and plugged the nTerm in. And Windows detected the CP2102 immediately, installed the drivers, and... success #1 was there!
+<sub>After my v0.1 boards arrived I built one up. I did it in stages, starting with the CP2102 and then the power (I use the CP2102 in bus-powered mode). After much cursing, I got the CP2012 straight on the pads and it looked good under the microscope. I then added the power supply components and the USB-C port. No ESD protection yet. Doublechecked everything 10 times under the microscope, got out an old cheap USB hub (better to blow up the hub than my Macbook's port) and plugged the nTerm in. And Windows detected the CP2102 immediately, installed the drivers, and... success #1 was there!</sub>
 
-I then added the ESP32. Could update its firmware. Success #2! Soldered the video DAC and VGA port (and fixed the ESP32). Success #3: we have video! Then populated the keyboard and mouse circuits. Success #4! After playing some Space Invaders, I populated the MAX3232 and hardwired the Rx and Tx together to do a loopback test. And we had success #5!
+<sub>I then added the ESP32. Could update its firmware. Success #2! Soldered the video DAC and VGA port (and fixed the ESP32). Success #3: we have video! Then populated the keyboard and mouse circuits. Success #4! After playing some Space Invaders, I populated the MAX3232 and hardwired the Rx and Tx together to do a loopback test. And we had success #5!</sub>
 
-Then the problems started. After populating the relay circuits, I could not get them to switch. After lots of measuring and experimenting with an oscilloscope, I could only conclude that the ESP32 was simply not able to source enough power and all my calculations and experiments apparently had been wrong. So now I had to experiment with the board itself and found that all I could do was buffer the ESP32's GPIO with another transistor buffer. I.e. replace the BAT43 diode with a BC817 transistor. After fiddling with resistor values, I got it all working reliably in the end. But it needed a new board revision.
+<sub>Then the problems started. After populating the relay circuits, I could not get them to switch. After lots of measuring and experimenting with an oscilloscope, I could only conclude that the ESP32 was simply not able to source enough power and all my calculations and experiments apparently had been wrong. So now I had to experiment with the board itself and found that all I could do was buffer the ESP32's GPIO with another transistor buffer. I.e. replace the BAT43 diode with a BC817 transistor. After fiddling with resistor values, I got it all working reliably in the end. But it needed a new board revision.</sub>
 
-Problems encountered and fixed:
+<sub>Problems encountered and fixed:</sub>
 
-1. The CP2102 was really hard to solder, even using hot air. I am looking into the FT231 as a much easier to solder alternative. But the FT231 seems to have more driver issues than the CP2102 (which has none, as far as I know). As an alternative, it might help to increase the size of the pads.
+<sub>1. The CP2102 was really hard to solder, even using hot air. I am looking into the FT231 as a much easier to solder alternative. But the FT231 seems to have more driver issues than the CP2102 (which has none, as far as I know). As an alternative, it might help to increase the size of the pads.
 2. The ESD protection diodes were much tinier than I thought. Looking at the PCB in Kicad, they didn't seem so small. :) So I should try to find larger diodes.
 3. I thought I had an ESP32 lying around, but it turned out that I only had one that was soldered to a breakout board. So I decided to desolder that, instead of wait for new ones to arrive. Well, that did not go too well. I ripped off one of the castellated pads, one which is used for hSync. So no video. But I a not defeated so easily, so I lifted the cap off the module, soldered a wire directly to the ESP32 chip and ran it to the HSYNC line. Win! .;) I could start some serious testing
 4. The relay circuits don't work. Had to redesign somewhat.
@@ -35,19 +35,25 @@ Problems encountered and fixed:
 8. I think I should add one or more extra holes for screws around the VGA connector because I don't believe for a moment that this is stable. 
 </sub>
 
-<sub>After a fixing all of the above, and refactoring a few things on the board, version v0.6 was arrived at. And once again I had boards made by JCPCB. 17 euro for 5 boards. Still cheap, but no discount for me this time. The new boards arrived in record time, and I went to populate one.
+<sub>After a fixing all of the above, and refactoring a few things on the board, version v0.6 was arrived at. And once again I had boards made by JCPCB. 17 euro for 5 boards. Still cheap, but no discount for me this time. The new boards arrived in record time, and I went to populate one.<s/ub>
 
-Observations:
+<sub>Observations:</sub>
 
-1. Still have one capacitor's footprint wrong. Although this I was able to fit it horizontally at least.
+<sub>1. Still have one capacitor's footprint wrong. Although this I was able to fit it horizontally at least.
 2. CP2102 solders much easier with the larger sized pads. But it still is fiddly to hand-solder a QFN-28 chip. I wish Silicon Labs would make a QFP-28 version.
 3. The board is detected by my Macbook, but can't communicate with it. My Windows machine is luckily able to communicate and flash, but it doesn't seem too happy about it all. What's going on? Turns out that I had chosen ESD diodes for their size, but did not realize that with their size also comes a high capacity of some 100pF. And that's enough to mess up the USB communications. So it's back to the ol' drawing board here. Removing the ESD diodes makes USB work again on all my machines. But i want them, so we'll need a new revision already. 
 4. My new relay circuits work! Flawlessly even!
-5. Why did I not add an option to keep the amplifier circuit unpopulated and have a line-out instead of a speaker-out? Or why not both options, selectable throguh solder bridges?
+5. Why did I not add an option to keep the amplifier circuit unpopulated and have a line-out instead of a speaker-out? Or why not both options, selectable throguh solder bridges?</sub>
 
-Apart from these issues, uTerm2-S v0.5 works!
+<sub>Apart from these issues, nTerm2-S v0.5 works!</sub>
 
-</sub>
+<sub>v0.1 vs v0.5:</sub>
+
+![IMG_3242](https://github.com/user-attachments/assets/5470fe8d-8720-4005-9847-031886a9e115)
+
+<sub>Testing v0.5</sub>
+
+![IMG_3247](https://github.com/user-attachments/assets/405c753a-6f47-495e-aaf1-b2bfb98be430)
 
 <sub>I just finished the v0.6 design with fixes for all of the above. That would be the final design, with only a slight feature creep (being able to omit/bypass the speaker amplifier). Now we need software...</sub>
 
