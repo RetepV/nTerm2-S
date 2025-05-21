@@ -1,0 +1,371 @@
+(footprint "Jack_3.5mm_Ledino_KB3SPRS_Horizontal-alt"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=C160%252FKB3SPRS.pdf")
+	(tags "jack stereo TRS")
+	(property "Reference" "REF**"
+		(at -3.5 2.3 0)
+		(layer "F.SilkS")
+		(uuid "18bf4851-6e5f-46d5-98de-6f1474f9e810")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Line-out/Speaker"
+		(at 2.3 -12.2 0)
+		(layer "F.Fab")
+		(uuid "03a00ff1-d7a8-4928-9199-ac348d735683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c88445f3-21c4-4406-8755-7a0120b4f3d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6083b9f7-366e-4eb3-b823-b256ddd4b132")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.4 -7.7)
+		(end -9.4 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c99f898-4f9a-4be9-b0d9-34082a9bf17b")
+	)
+	(fp_line
+		(start -9.4 -1.5)
+		(end -5.8 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a58a2de-a932-4c10-9ca4-0a9098ffc235")
+	)
+	(fp_line
+		(start -5.8 -10.8)
+		(end 1.95 -10.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72d4e902-720e-43bb-be01-514226f9d9f4")
+	)
+	(fp_line
+		(start -5.8 -7.7)
+		(end -9.4 -7.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8755a769-89a1-4dff-a2e0-183e99333443")
+	)
+	(fp_line
+		(start -5.8 1)
+		(end -5.8 -10.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e13de869-f2ec-4103-a460-fa66cee14d6d")
+	)
+	(fp_line
+		(start -2.25 1)
+		(end -5.8 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74e258ee-a89a-4bf7-8c78-14841f71fd6c")
+	)
+	(fp_line
+		(start -0.5 2.05)
+		(end 0.5 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb7855e2-7a17-406a-85d0-67f54a530bc7")
+	)
+	(fp_line
+		(start 0 1.5)
+		(end -0.5 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "476615f2-a7b8-41c3-a568-eef3f0385214")
+	)
+	(fp_line
+		(start 0.5 2.05)
+		(end 0 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3a46a55-7e85-46d0-8330-5ad106935c3c")
+	)
+	(fp_line
+		(start 6 1)
+		(end 2.25 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d879820c-38a7-4d37-8afe-07bb0ec0c25b")
+	)
+	(fp_line
+		(start 6.3 -10.8)
+		(end 8.7 -10.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a21edb9-e9a1-4f83-89e4-d2d28e8e4531")
+	)
+	(fp_line
+		(start 8.7 -10.8)
+		(end 8.7 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39bc8429-c8b9-46bb-b321-22fd2c8cc83c")
+	)
+	(fp_line
+		(start 8.7 1)
+		(end 8.6 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f3b98ea-c54f-4704-b91c-dbc00a01dbeb")
+	)
+	(fp_line
+		(start -9.8 -11.4)
+		(end -9.8 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4b3c6c1-f9a5-4092-9c4b-af88011111cd")
+	)
+	(fp_line
+		(start -9.8 2)
+		(end 9.1 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3195d5dc-5fc1-47a1-9f4d-8a951bdc819b")
+	)
+	(fp_line
+		(start 9.1 -11.4)
+		(end -9.8 -11.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fee64205-e219-43fe-96de-0ed4a8cb2f00")
+	)
+	(fp_line
+		(start 9.1 2)
+		(end 9.1 -11.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdf53de7-1f73-4425-8544-685896bde4bc")
+	)
+	(fp_line
+		(start -9.3 -7.6)
+		(end -9.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ab7f772-cf19-4b56-9b64-ce1423bbfb80")
+	)
+	(fp_line
+		(start -9.3 -7.6)
+		(end -5.7 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c7bb42a-5ff0-4846-9e8b-0125342d1c5c")
+	)
+	(fp_line
+		(start -9.3 -1.6)
+		(end -5.7 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abf07771-da2a-4aa0-a2ab-a0f9199d8194")
+	)
+	(fp_line
+		(start -5.7 -10.7)
+		(end -5.7 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a3ea72a-c9c8-42c6-a26c-6894e3d8fd66")
+	)
+	(fp_line
+		(start -5.7 0.9)
+		(end 8.6 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c51e6f67-e962-4515-9705-020659a593ef")
+	)
+	(fp_line
+		(start 8.6 -10.7)
+		(end -5.7 -10.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "782d3770-466b-4c32-ac9f-04a44a2f7626")
+	)
+	(fp_line
+		(start 8.6 0.9)
+		(end 8.6 -10.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbf42dd1-1364-47a6-b932-2232b8064b9a")
+	)
+	(fp_circle
+		(center 0.1 -1.75)
+		(end 0.4 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "53ba0719-4881-4066-ac06-0f28e182cb12")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.7 -4.6 0)
+		(layer "F.Fab")
+		(uuid "9d677f48-a07b-40e2-bdf1-cb397647e48e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "R" thru_hole oval
+		(at 4.1 -9.8)
+		(size 4 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3fb02d0-734b-4784-8bd2-db682f62b5c9")
+	)
+	(pad "RN" thru_hole oval
+		(at 2.9 -7.1)
+		(size 4 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ede79a1-0ab3-4241-b8e7-eb8515e91680")
+	)
+	(pad "S" thru_hole oval
+		(at -3.9 -4.6)
+		(size 2.2 4)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "058acd17-13ba-4f83-b27c-5897410634a6")
+	)
+	(pad "T" thru_hole rect
+		(at 0 0)
+		(size 4 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "790d2682-b092-4d72-b1a8-4cf6a307e399")
+	)
+	(pad "TN" thru_hole oval
+		(at 7.3 -0.5 90)
+		(size 4 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c4e6b51-6355-4ecb-a733-e561f9fcc5c5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Ledino_KB3SPRS_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,338 @@
+(footprint "Relay_DPDT_AXICOM_IMSeries_Gullwing"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf")
+	(tags "AXICOM IM-Series Relay J Gull Wing")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "2c523db5-edc4-4a98-9f69-bed3747a7d74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IM41 3V"
+		(at 0 6.25 0)
+		(layer "F.Fab")
+		(uuid "718af284-4689-44fe-b83e-20ce7b2e7c4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-98001&DocType=SS&DocLang=EN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef49a13-430c-44ee-bb06-40b188e59003")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IM Relay, standard version, bistable, switching current 2/5A, power 60W/62.5VA, voltage 220VDC/250VAC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e30e1ee0-83f2-4e7f-ae5a-1c2d47caf557")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -5.2)
+		(end -3.2 -4.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43c6cccb-7213-4214-80c3-7fb7986135ca")
+	)
+	(fp_line
+		(start -3.2 4.45)
+		(end -3.2 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "488013f8-680b-48ab-ba51-6367c655b289")
+	)
+	(fp_line
+		(start -3.2 5.2)
+		(end -2.45 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "682b323d-09bd-412c-aa31-a63372418929")
+	)
+	(fp_line
+		(start -3.05 -5.2)
+		(end -3.2 -5.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f673542b-10af-4498-a009-02798bbb5bde")
+	)
+	(fp_line
+		(start -2.9 -5.2)
+		(end -3.2 -4.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abeed063-730f-4e99-bc9a-c01665eaab9f")
+	)
+	(fp_line
+		(start -2.75 -5.2)
+		(end -3.2 -4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc033f41-2498-4e80-b7e2-c62d3bc7d4ea")
+	)
+	(fp_line
+		(start -2.6 -5.2)
+		(end -3.2 -4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2bd8adb-5522-4b69-a486-f4c4de1dd11f")
+	)
+	(fp_line
+		(start -2.45 -5.2)
+		(end -3.2 -5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6259c26c-9a16-42b3-90d6-b27937a73b80")
+	)
+	(fp_line
+		(start 2.45 -5.2)
+		(end 3.2 -5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2520dcf-a1af-4c81-a26b-13f9a7fd8532")
+	)
+	(fp_line
+		(start 2.45 5.2)
+		(end 3.2 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5ee30b8-66ce-4b4b-b51d-25893c6e08af")
+	)
+	(fp_line
+		(start 3.2 -5.2)
+		(end 3.2 -4.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad8801e3-072e-4fda-a004-02b0e5e8b57a")
+	)
+	(fp_line
+		(start 3.2 4.45)
+		(end 3.2 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5541a162-696a-49bb-9f5d-2451293e0374")
+	)
+	(fp_line
+		(start -4.25 -5.25)
+		(end -4.25 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d391bd2e-91b7-4c63-8e0f-48f07efcdac5")
+	)
+	(fp_line
+		(start -4.25 5.25)
+		(end 4.25 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80bed721-1c5d-450f-beee-8532c3792581")
+	)
+	(fp_line
+		(start 4.25 -5.25)
+		(end -4.25 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09c3c371-8aee-4fd8-8b28-964e940ae40d")
+	)
+	(fp_line
+		(start 4.25 5.25)
+		(end 4.25 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76036394-4e2a-4201-9c7f-d4f919a4135d")
+	)
+	(fp_line
+		(start -3 -4.5)
+		(end -2.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7cf6b74-ec6c-4e24-9fe4-40e29757d760")
+	)
+	(fp_line
+		(start -3 5)
+		(end -3 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e222b912-ac50-4758-831b-d700b3cd6873")
+	)
+	(fp_line
+		(start -2.5 -5)
+		(end 3 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c056f619-4b4f-4d57-a848-185a7e86b30d")
+	)
+	(fp_line
+		(start 3 -5)
+		(end 3 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf8e52ab-3f6e-4a08-a4c3-4956cf53b102")
+	)
+	(fp_line
+		(start 3 5)
+		(end -3 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0836bc15-4a3f-4f72-a189-d7cba3cc7e76")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.06 0 90)
+		(layer "F.Fab")
+		(uuid "c97aa252-17fb-49db-bf95-99f79f7da075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 -3.8)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7677127d-1a31-469b-86fb-e88ef3ab5d06")
+	)
+	(pad "2" smd rect
+		(at -3 -0.6)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8266256d-e2ed-4ac0-b361-8d8b57117faa")
+	)
+	(pad "3" smd rect
+		(at -3 1.6)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c8137b1-2621-440a-a3a9-82dd5151a770")
+	)
+	(pad "4" smd rect
+		(at -3 3.8)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c0c9b4e6-e2df-4af3-8094-841607cae456")
+	)
+	(pad "5" smd rect
+		(at 3 3.8)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "70912b73-03b9-41a7-a233-dc0b90082083")
+	)
+	(pad "6" smd rect
+		(at 3 1.6)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d9d16c74-7493-44da-b2e2-b4b0d78a3e74")
+	)
+	(pad "7" smd rect
+		(at 3 -0.6)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1393406-c815-44af-855b-6ec1286c6e76")
+	)
+	(pad "8" smd rect
+		(at 3 -3.8)
+		(size 2 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "210b87fe-31a2-4819-825f-564000c1d340")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Relay_SMD.3dshapes/Relay_2P2T_10x6mm_TE_IMxxG.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
