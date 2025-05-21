@@ -1,4 +1,14 @@
 # nTerm2-S
+
+> [!IMPORTANT]
+> I have permanently decided to drop the CP2102 in favor of the FT231 as a USB<->Serial bridge. The CP2102 is just near impossible to solder with a soldering iron, and it was one of my objectives to not have to use hot air. As the rest of the design design is basically still the same, I decided to freeze this repository, keeping it like it is for whoever is interested, and start a new repository for the FT231 version. The design is working: if you make a board it should work, mine does.\
+> \
+> However, do note that I decided to move to the FT231 already before I made boards with the ESD USB protection circuit USBLC6-2SC6. It's in the latest design files here, but no boards were made and it has not been tested. However, that circuit is so uncomplicated, that I'm sure it will work fine. In worst case you can leave out the USBLC6-2SC6 and just connect pins 1-6 and 3-4. However, without ESD protection, I would suggest to connect the nTerm2-S through a cheap USB hub. No sense in jeopardising your USB ports.\
+> \
+> Also, I decided to add an RTC to nTerm2-S, and that's only in the FT231 version.\
+> \
+> Long story short, have look here for continuation of this project: https://github.com/RetepV/nTerm2-S-FT231
+
 My rendition of the uTerm2-S by Just4Fun (https://hackaday.io/project/181583-uterm2-s-a-multi-emulation-color-rs232-terminal). This one is in SMD, and I hopefully made it easily hand-solderable for everyone (with maybe the exception of the CP2102). Obviously the 'n' in nTerm stands for 'nano.' :P
 
 The nTerm2-S has a slightly more usable form the uTerm2-S, I think. Smaller and a little more usable when sitting permanently on a desk. And as an extra, it can switch between normal and cross (null-modem) from the software so that you wil never have to search for that null-modem cable ever again. It can also switch between RTS/CTS or DTR/DSR handshaking.
