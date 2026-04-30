@@ -35,9 +35,7 @@ THIS IS A WORK IN PROGESS! I.E. UNLESS STATED AS WORKING, ASSUME THAT IT DOES NO
 
 So now I had to experiment with the board itself and found that what I could do was to change the input diode to a transistor in common collector (emitter follower) configuration, and basically buffer ESP32's GPIO. So I replaced the BAT43 diode with a BC817 transistor, with collector tied to 5V and emitter tied to the input of the circuit. This brings the voltage into the circuit up to the 3.15V that the ESP32 was outputting (voltage drop of the transistor is negated by feeding it 5V). And after fiddling a bit with resistor and capacitor values I got it all working reliably.
 
-I left it at that, it was working now with minimal changes and no inrease in cost.<sub>
-
-do still have a feeling that a pull up resistor in a strategic place might have worked as well. The objective is to get 3V or more to the capacitor, instead of the 2.61V that was now getting to it. But I didn't pursue the idea, as the transistor solution worked too.</sub>
+I left it at that, it was working now with minimal changes and no inrease in cost.</sub>
 
 <sub>Problems encountered and fixed:</sub>
 
